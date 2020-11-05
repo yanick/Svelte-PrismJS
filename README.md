@@ -86,7 +86,7 @@ import "prismjs/themes/prism-coy.css";
 
 2. You can either include the cdn links in your template.html file or you can install the rollup-css-only-plugin. It's basically what step 2 is for svelte minus different directories. For sapper be sure you put the file in the static folder.
 
-3. Import Prism Svelte. Becuase prism uses the window object we have to do some weird stuff to get it work. For now here is the work around.
+3. Import Prism Svelte. Because prism uses the window object we have to do some weird stuff to get it work. For now here is the work around.
 
 ```svelte
 let Prism;
